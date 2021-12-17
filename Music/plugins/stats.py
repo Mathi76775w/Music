@@ -49,7 +49,7 @@ async def gstats(_, message):
     msg = f"""
 **Global Stats of Aries Music Bot**:\n\n
 🔘 <u>__**System Stats**__</u>
-├-☉️⇝ **Aries Music Uptime:** {uptime}
+├-☉️⇝ **Dᴇᴠɪʟ✗AɳɠɛƖ Uptime:** {uptime}
 ├-☉️⇝ **System Process:** Online
 ├-☉️⇝ **Platform:** {sc}
 ├-☉️⇝ **Storage:** Used {used[:4]} GiB out of {total[:4]} GiB, free {free[:4]} GiB
@@ -63,7 +63,7 @@ async def gstats(_, message):
 ├-☉️⇝ **Modules Loaded:** {modules_count}
 ├-☉️⇝ **GBanned Users:** {blocked}
 ├-☉️⇝ **Sudo Users:** {j}
-└-☉️⇝ **Allowed Chats:** {len(served_chats)}
+└-☉️⇝ **Served Chats:** {len(served_chats)}
 
 """
     served_chats.pop(0)
