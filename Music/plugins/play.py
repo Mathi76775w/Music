@@ -721,7 +721,7 @@ async def popat(_, CallbackQuery):
             query,
         )
         await CallbackQuery.edit_message_text(
-            f"➏ <b>{title6}</b>\n├-☉️⇝ **Duration:** {duration6}\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})__</u>\n└-☉️⇝ **Powered by:** __Aries O.S ⚡️__\n\n➐ <b>{title7}</b>\n├-☉️⇝ **Duration:** {duration7}\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})__</u>\n└-☉️⇝ **Powered by:** __Aries O.S ⚡️__\n\n➑ <b>{title8}</b>\n├-☉️⇝ **Duration:** {duration8}\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})__</u>\n└-☉️⇝ **Powered by:** __Aries O.S ⚡️__\n\n➒ <b>{title9}</b>\n├-☉️⇝ **Duration:** {duration9}\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})__</u>\n└-☉️⇝ **Powered by:** __Aries O.S ⚡️__\n\n➓ <b>{title10}</b>\n├-☉️⇝ **Duration:** {duration10}\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})__</u>\n└-☉️⇝ **Powered by:** __Aries O.S ⚡️__\n",
+            f"➏ <b>{title6}</b>\n├-☉️⇝ **Duration:** {duration6}\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})__</u>\n└-☉️⇝ **Powered by:** __Dᴇᴠɪʟ AɳɠɛƖ ⚡️__\n\n➐ <b>{title7}</b>\n├-☉️⇝ **Duration:** {duration7}\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})__</u>\n└-☉️⇝ **Powered by:** __Dᴇᴠɪʟ AɳɠɛƖ⚡️__\n\n➑ <b>{title8}</b>\n├-☉️⇝ **Duration:** {duration8}\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})__</u>\n└-☉️⇝ **Powered by:** __Dᴇᴠɪʟ AɳɠɛƖ⚡️__\n\n➒ <b>{title9}</b>\n├-☉️⇝ **Duration:** {duration9}\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})__</u>\n└-☉️⇝ **Powered by:** __Dᴇᴠɪʟ AɳɠɛƖ⚡️__\n\n➓ <b>{title10}</b>\n├-☉️⇝ **Duration:** {duration10}\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})__</u>\n└-☉️⇝ **Powered by:** __Dᴇᴠɪʟ AɳɠɛƖ⚡️__\n",
             reply_markup=InlineKeyboardMarkup(buttons),
         )
         disable_web_page_preview = True
@@ -758,7 +758,7 @@ async def play_playlist_cmd(_, message):
     await message.reply_photo(
         photo=thumb,
         caption=(
-            "**__Aries Music's Playlist Feature__**\n\nSelect the Playlist you want to play!."
+            "**__DᴇᴠɪʟAɳɠɛƖ Music's Playlist Feature__**\n\nSelect the Playlist you want to play!."
         ),
         reply_markup=InlineKeyboardMarkup(buttons),
     )
