@@ -137,7 +137,7 @@ async def mpthree(_, message: Message):
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),
             caption=(
-                f"├-☉️⇝ [{title[:25]}]({url})\n├-☉️⇝ [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})\n└-☉️⇝ <b>Powered by: </b>__Aries O.S ⚡️__\n"
+                f"├-☉️⇝ [{title[:25]}]({url})\n├-☉️⇝ [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})\n└-☉️⇝ <b>Powered by: </b>__Dᴇᴠɪʟ AɳɠɛƖ⚡__\n"
             ),
         )
         os.remove(thumb)
