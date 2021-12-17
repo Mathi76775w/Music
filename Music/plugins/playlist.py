@@ -126,7 +126,7 @@ options = [
 
 @app.on_message(filters.command("playlist"))
 async def pause_cmd(_, message):
-    thumb = "cache/Playlist.png"
+    thumb = "https://telegra.ph/file/a01ef91bd802109bbcbc1.jpg"
     await message.reply_photo(
         photo=thumb,
         caption=(
