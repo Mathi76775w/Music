@@ -247,7 +247,7 @@ async def startyuplay(_, CallbackQuery):
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),
         caption=(
-            f"├-☉️⇝ [{title[:25]}]({url})\n├-☉️⇝ [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})\n└-☉️⇝ <b>Powered by: </b>__Aries O.S ⚡️__\n"
+            f"├-☉️⇝ [{title[:25]}]({url})\n├-☉️⇝ [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})\n└-☉️⇝ <b>Powered by: </b>__Dᴇᴠɪʟ AɳɠɛƖ ⚡️__\n"
         ),
     )
     os.remove(thumb)
@@ -323,7 +323,7 @@ async def chonga(_, CallbackQuery):
             query,
         )
         await CallbackQuery.edit_message_text(
-            f" ➏ <b>{title6}</b>\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})__</u>\n└-☉️⇝ <b>Powered by: </b>__Dᴇᴠɪʟ AɳɠɛƖ ⚡️__\n\n ➐ <b>{title7}</b>\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})__</u>\n└-☉️⇝ <b>Powered by: </b>__Aries O.S ⚡️__\n\n ➑ <b>{title8}</b>\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})__</u>\n└-☉️⇝ <b>Powered by: </b>__Aries O.S ⚡️__\n\n ➒ <b>{title9}</b>\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})__</u>\n└-☉️⇝ <b>Powered by: </b>__Aries O.S ⚡️__\n\n ➓ <b>{title10}</b>\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})__</u>\n└-☉️⇝ <b>Powered by: </b>__Dᴇᴠɪʟ AɳɠɛƖ ⚡️__\n",
+            f" ➏ <b>{title6}</b>\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})__</u>\n└-☉️⇝ <b>Powered by: </b>__Dᴇᴠɪʟ AɳɠɛƖ ⚡️__\n\n ➐ <b>{title7}</b>\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})__</u>\n└-☉️⇝ <b>Powered by: </b>__Dᴇᴠɪʟ AɳɠɛƖ ⚡️__\n\n ➑ <b>{title8}</b>\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})__</u>\n└-☉️⇝ <b>Powered by: </b>__Dᴇᴠɪʟ AɳɠɛƖ ⚡️__\n\n ➒ <b>{title9}</b>\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})__</u>\n└-☉️⇝ <b>Powered by: </b>__Dᴇᴠɪʟ AɳɠɛƖ ⚡️__\n\n ➓ <b>{title10}</b>\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})__</u>\n└-☉️⇝ <b>Powered by: </b>__Dᴇᴠɪʟ AɳɠɛƖ ⚡️__\n",
             reply_markup=InlineKeyboardMarkup(buttons),
         )
         disable_web_page_preview = True
