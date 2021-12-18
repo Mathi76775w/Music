@@ -401,7 +401,7 @@ async def play(_, message: Message):
             query,
         )
         hmo = await message.reply_photo(
-            photo=thumb,
+            photo="https://telegra.ph/file/ab5990e251fa4734fc24e.jpg",
             caption=(
                 f"**DᴇᴠɪʟAɳɠɛƖ Music**\n\n➊ <b>{title1}</b>\n├-☉️⇝ **Duration:** {duration1}\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID1})__</u>\n└-☉️⇝ **Powered by:** __DᴇᴠɪʟAɳɠɛƖ⚡️__\n\n➋ <b>{title2}</b>\n├-☉️⇝ **Duration:** {duration2}\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID2})__</u>\n└-☉️⇝ **Powered by:** __DᴇᴠɪʟAɳɠɛƖ ⚡️__\n\n➌ <b>{title3}</b>\n├-☉️⇝ **Duration:** {duration3}\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID3})__</u>\n└-☉️⇝ **Powered by:** __Dᴇᴠɪʟ AɳɠɛƖ⚡️__\n\n➍ <b>{title4}</b>\n├-☉️⇝ **Duration:** {duration4}\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID4})__</u>\n└-☉️⇝ **Powered by:** __DᴇᴠɪʟAɳɠɛƖ⚡️__\n\n➎ <b>{title5}</b>\n├-☉️⇝ **Duration:** {duration5}\n├-☉️⇝ <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID5})__</u>\n└-☉️⇝ **Powered by:** __DᴇᴠɪʟAɳɠɛƖ⚡️__\n"
             ),
