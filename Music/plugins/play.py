@@ -384,7 +384,7 @@ async def play(_, message: Message):
             ID5 = result[4]["id"]
         except Exception as e:
             return await mystic.edit_text(f"Soung Not Found.\n**Possible Reason:**{e}")
-        thumb = "cache/Results.png"
+        thumb = "IMG_20211217_171334_095.jpg"
         await mystic.delete()
         buttons = search_markup(
             ID1,
